@@ -21,6 +21,6 @@ def totalDetails():
     extract_Details(_userName=userName, _userAge=userAge, _userAddress=userAddress)
 
 def extract_Details(_userName, _userAge, _userAddress):
-    print(f"\nHi, my name is {_userName}. I am {_userAge:.0f} years old and I live in {_userAddress}.")
+    print(f"\nHi, my name is {_userName}. I am {_userAge:.0f} years old and I live in {_userAddress}.\n")
 
 totalDetails()
