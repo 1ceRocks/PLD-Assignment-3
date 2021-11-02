@@ -3,11 +3,11 @@ print("\nWelcome to Villariza Foods! \nThe Price of an Apple is 20 PHP, while th
 
 #Synchronized every code into def function with parameters and added special variables for the program to run without errors.
 def obtain_apple():
-    apple = (input("\nPlease quantify how many apples you need to purchase... \n> Quantity: "))
+    apple = int(input("\nPlease quantify how many apples you need to purchase... \n> Quantity: "))
     return apple 
 
 def obtain_orange():
-    orange = (input("\nPlease quantify how many oranges you need to purchase... \n> Quantity: "))
+    orange = int(input("\nPlease quantify how many oranges you need to purchase... \n> Quantity: "))
     return orange
 
 def obtain_applePrice():
