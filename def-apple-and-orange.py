@@ -11,7 +11,7 @@ def obtain_orange():
     return orange
 
 def obtain_applePrice():
-    price_apple = 25
+    price_apple = 20
     return price_apple
 
 def obtain_orangePrice():
